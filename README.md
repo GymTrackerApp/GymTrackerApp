@@ -65,7 +65,7 @@
 *Designed with mobile-first mindset, ensuring the UI is perfectly responsive for use on the gym floor.*
 
 <p style="text-align: center">
-  <img src="assets/mobile.gif" alt="Mobile Responsiveness Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/mobile.gif" alt="Mobile Responsiveness Visualization" width="300" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 ---
