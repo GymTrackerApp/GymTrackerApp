@@ -33,21 +33,26 @@
 ### Track your progress
 *Monitor your strength gains and volume metrics with interactive, real-time data visualization.*
 
+https://github.com/user-attachments/assets/478c1962-eea9-41fd-ae1b-cec7ae0939a9
 ---
 
 ### Log your workouts
 *Streamlined interface for logging exercises, sets, and reps. Optimized for quick entry during active rest periods.*
 
+https://github.com/user-attachments/assets/e4c01059-1015-4083-8526-295a2ccc31d7
 ---
 
 ### Custom Routine Management
 *Define your own workout templates and exercises. The system handles complex relational data to keep your history organized.*
 
+https://github.com/user-attachments/assets/8653dc6b-ca25-4d02-9158-171f0386db08
+https://github.com/user-attachments/assets/1ae3b014-26f9-4cdc-9d9d-7c6afc9ed976
 ---
 
 ### Mobile-First Experience
 *Designed with mobile-first mindset, ensuring the UI is perfectly responsive for use on the gym floor.*
 
+https://github.com/user-attachments/assets/a61a8116-5007-4946-91b9-00e77167c26b
 ---
 
 ## System Architecture
