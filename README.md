@@ -1,6 +1,6 @@
 # GymTrackerApp
 
-> **Master your progress.** A full-stack, enterprise-grade solution for tracking gym performance, managing workout routines, and visualizing strength progression over time.
+> **Master your progress.** A full-stack solution for tracking gym performance, managing workout routines, and visualizing strength progression over time.
 
 ### Backend
 [![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
@@ -8,9 +8,9 @@
 [![Flyway](https://img.shields.io/badge/Flyway-Migrations-CC0200?style=for-the-badge&logo=flyway)](https://flywaydb.org/)
 
 ### Frontend
-[![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![TanStack Query](https://img.shields.io/badge/TanStack_Query-5.x-FF4154?style=for-the-badge&logo=reactquery)](https://tanstack.com/query/latest)
 
 ### Infrastructure & Tools
@@ -21,9 +21,32 @@
 
 ## Preview
 
-![GymTrackerApp Dashboard](./img/dashboard.png)
-
 *An intuitive, mobile-responsive dashboard built with Tailwind CSS to track your progress at a glance.*
+
+![GymTrackerApp Dashboard](./assets/dashboard.png)
+
+
+---
+
+## Features
+
+### Track your progress
+*Monitor your strength gains and volume metrics with interactive, real-time data visualization.*
+
+---
+
+### Log your workouts
+*Streamlined interface for logging exercises, sets, and reps. Optimized for quick entry during active rest periods.*
+
+---
+
+### Custom Routine Management
+*Define your own workout templates and exercises. The system handles complex relational data to keep your history organized.*
+
+---
+
+### Mobile-First Experience
+*Designed with mobile-first mindset, ensuring the UI is perfectly responsive for use on the gym floor.*
 
 ---
 
@@ -48,15 +71,6 @@ graph TD
 
 ---
 
-### Technical Key Features
-* **Full CRUD Lifecycle:** Create custom workout templates, exercises and log individual training sessions with persistence. Use predefined workout templates and exercises if needed. Track your progress using historical data.
-* **Type-Safe Integration:** Shared interfaces between the TypeScript frontend and Java DTOs to ensure 100% contract reliability.
-* **Relational Mapping:** Advanced JPA mapping for complex relationships (Users ↔ Workouts ↔ Exercises ↔ Sets).
-* **Responsive UI:** Fully optimized for mobile devices, allowing users to log sets comfortably on the gym floor.
-* **Containerized Orchestration:** Fully orchestrated via Docker Compose for a seamless "production-like" local environment.
-
----
-
 ### Quick Start (Local Development)
 This repository acts as the **System Orchestrator**. You can spin up the entire stack locally with a single command.
 
@@ -69,15 +83,25 @@ This repository acts as the **System Orchestrator**. You can spin up the entire 
 
 git clone --recursive https://github.com/GymTrackerApp/GymTrackerApp.git
 cd GymTrackerApp
+cp .env.example .env
 docker-compose up --build
 ```
 
 #### 3. Access Points
-| Component       | URL                                                                  |
-|:----------------|:---------------------------------------------------------------------|
-| **Frontend UI** | [http://localhost:5173](http://localhost:5173)                       |
-| **Backend API** | [http://localhost:8080](http://localhost:8080/swagger-ui/index.html) |
-| **Database**    | `localhost:5432`                                                     |
+| Component       | URL                                            |
+|:----------------|:-----------------------------------------------|
+| **Frontend UI** | [http://localhost:3000](http://localhost:3000) |
+| **Backend API** | [http://localhost:8080](http://localhost:8080) |
+| **Database**    | `localhost:5432`                               |
+
+---
+
+### Technical Key Features
+* **Full CRUD Lifecycle:** Create custom workout templates, exercises and log individual training sessions with persistence. Use predefined workout templates and exercises if needed. Track your progress using historical data.
+* **Type-Safe Integration:** Shared interfaces between the TypeScript frontend and Java DTOs to ensure 100% contract reliability.
+* **Relational Mapping:** Advanced JPA mapping for complex relationships (Users ↔ Workouts ↔ Exercises ↔ Sets). 
+* **Responsive UI:** Fully optimized for mobile devices, allowing users to log sets comfortably on the gym floor.
+* **Containerized Orchestration:** Fully orchestrated via Docker Compose for a seamless "production-like" local environment.
 
 ---
 
