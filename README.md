@@ -33,26 +33,41 @@
 ### Track your progress
 *Monitor your strength gains and volume metrics with interactive, real-time data visualization.*
 
-https://github.com/user-attachments/assets/478c1962-eea9-41fd-ae1b-cec7ae0939a9
+<p style="text-align: center">
+  <img src="assets/track-progress.mov" alt="Progress Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+</p>
+
 ---
 
 ### Log your workouts
 *Streamlined interface for logging exercises, sets, and reps. Optimized for quick entry during active rest periods.*
 
-https://github.com/user-attachments/assets/e4c01059-1015-4083-8526-295a2ccc31d7
+<p style="text-align: center">
+  <img src="assets/log-workout.mov" alt="Workout Logging" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+</p>
+
 ---
 
 ### Custom Routine Management
 *Define your own workout templates and exercises. The system handles complex relational data to keep your history organized.*
 
-https://github.com/user-attachments/assets/8653dc6b-ca25-4d02-9158-171f0386db08
-https://github.com/user-attachments/assets/1ae3b014-26f9-4cdc-9d9d-7c6afc9ed976
+<p style="text-align: center">
+  <img src="assets/add-exercise.mov" alt="Adding Exercise" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+</p>
+
+<p style="text-align: center">
+  <img src="assets/add-workout.mov" alt="Adding Workout" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+</p>
+
 ---
 
 ### Mobile-First Experience
 *Designed with mobile-first mindset, ensuring the UI is perfectly responsive for use on the gym floor.*
 
-https://github.com/user-attachments/assets/a61a8116-5007-4946-91b9-00e77167c26b
+<p style="text-align: center">
+  <img src="assets/mobile.mov" alt="Mobile Responsiveness Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+</p>
+
 ---
 
 ## System Architecture
