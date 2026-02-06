@@ -34,7 +34,7 @@
 *Monitor your strength gains and volume metrics with interactive, real-time data visualization.*
 
 <p style="text-align: center">
-  <img src="assets/track-progress.mov" alt="Progress Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/track-progress.gif" alt="Progress Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 ---
@@ -43,7 +43,7 @@
 *Streamlined interface for logging exercises, sets, and reps. Optimized for quick entry during active rest periods.*
 
 <p style="text-align: center">
-  <img src="assets/log-workout.mov" alt="Workout Logging" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/log-workout.gif" alt="Workout Logging" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 ---
@@ -52,11 +52,11 @@
 *Define your own workout templates and exercises. The system handles complex relational data to keep your history organized.*
 
 <p style="text-align: center">
-  <img src="assets/add-exercise.mov" alt="Adding Exercise" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/add-exercise.gif" alt="Adding Exercise" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 <p style="text-align: center">
-  <img src="assets/add-workout.mov" alt="Adding Workout" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/add-workout.gif" alt="Adding Workout" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 ---
@@ -65,7 +65,7 @@
 *Designed with mobile-first mindset, ensuring the UI is perfectly responsive for use on the gym floor.*
 
 <p style="text-align: center">
-  <img src="assets/mobile.mov" alt="Mobile Responsiveness Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/mobile.gif" alt="Mobile Responsiveness Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 ---
