@@ -25,9 +25,6 @@
 
 ![GymTrackerApp Dashboard](./assets/dashboard.png)
 
-
----
-
 ## Features
 
 ### Track your progress
@@ -37,8 +34,6 @@
   <img src="assets/track-progress.gif" alt="Progress Visualization" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
----
-
 ### Log your workouts
 *Streamlined interface for logging exercises, sets, and reps. Optimized for quick entry during active rest periods.*
 
@@ -46,20 +41,18 @@
   <img src="assets/log-workout.gif" alt="Workout Logging" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
----
-
 ### Custom Routine Management
 *Define your own workout templates and exercises. The system handles complex relational data to keep your history organized.*
 
+- Create Exercise
 <p style="text-align: center">
   <img src="assets/add-exercise.gif" alt="Adding Exercise" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
+- Create Workout
 <p style="text-align: center">
   <img src="assets/add-workout.gif" alt="Adding Workout" width="800" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
-
----
 
 ### Mobile-First Experience
 *Designed with mobile-first mindset, ensuring the UI is perfectly responsive for use on the gym floor.*
@@ -67,8 +60,6 @@
 <p style="display: flex; justify-content: center;">
   <img src="assets/mobile.gif" alt="Mobile Responsiveness Visualization" width="300" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
-
----
 
 ## System Architecture
 The **GymTrackerApp** ecosystem is built as a federated system of repositories, managed via Git Submodules for maximum modularity and independent deployment.
