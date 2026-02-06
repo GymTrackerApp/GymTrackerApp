@@ -25,6 +25,8 @@
 
 ![GymTrackerApp Dashboard](./assets/dashboard.png)
 
+---
+
 ## Features
 
 ### Track your progress
@@ -60,6 +62,8 @@
 <p style="display: flex; justify-content: center;">
   <img src="assets/mobile.gif" alt="Mobile Responsiveness Visualization" width="300" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
+
+---
 
 ## System Architecture
 The **GymTrackerApp** ecosystem is built as a federated system of repositories, managed via Git Submodules for maximum modularity and independent deployment.
