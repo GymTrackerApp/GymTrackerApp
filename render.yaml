@@ -24,7 +24,7 @@ services:
         fromService:
           type: static
           name: gymtracker-frontend
-          property: url
+          property: host
 
   - type: web
     name: gymtracker-frontend
@@ -37,7 +37,7 @@ services:
         fromService:
           type: web
           name: gymtracker-backend
-          property: url
+          property: host
 
 databases:
   - name: gymtracker-db
