@@ -6,7 +6,7 @@ services:
     dockerfilePath: ./backend/Dockerfile
     plan: free
     envVars:
-      - key: SPRING_DATASOURCE_URL
+      - key: DB_URL
         fromDatabase:
           name: gymtracker-db
           property: connectionString
@@ -20,6 +20,8 @@ services:
           property: password
       - key: JWT_SECRET_KEY
         generateValue: true
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
       - key: CORS_ALLOWED_ORIGINS
         fromService:
           type: web
