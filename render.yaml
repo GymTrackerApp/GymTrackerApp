@@ -26,12 +26,12 @@ services:
           name: gymtracker-frontend
           property: url
 
-  - type: static_site
+  - type: web
     name: gymtracker-frontend
-    env: node
+    runtime: static
     rootDir: ./frontend/frontend-react
     buildCommand: npm install && npm run build
-    publishPath: ./dist
+    staticPublishPath: ./dist
     envVars:
       - key: VITE_API_URL
         fromService:
