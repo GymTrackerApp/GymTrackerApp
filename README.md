@@ -128,3 +128,7 @@ This project is split into specialized repositories to demonstrate real-world de
 * **/GymTrackerApp** — The [Main Orchestrator Repository](https://github.com/GymTrackerApp/GymTrackerApp)
 
 ---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
