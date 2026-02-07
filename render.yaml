@@ -5,6 +5,9 @@ services:
     dockerContext: ./backend
     dockerfilePath: ./backend/Dockerfile
     plan: free
+    watchPaths:
+      - backend/**
+      - render.yaml
     envVars:
       - key: DB_HOST
         fromDatabase:
@@ -34,7 +37,7 @@ services:
         fromService:
           type: web
           name: gymtracker-frontend
-          property: host
+          envVarKey: RENDER_EXTERNAL_URL
 
   - type: web
     name: gymtracker-frontend
