@@ -22,7 +22,7 @@ services:
         generateValue: true
       - key: CORS_ALLOWED_ORIGINS
         fromService:
-          type: static
+          type: web
           name: gymtracker-frontend
           property: host
 
