@@ -5,9 +5,6 @@ services:
     dockerContext: ./backend
     dockerfilePath: ./backend/Dockerfile
     plan: free
-    watchPaths:
-      - backend/**
-      - render.yaml
     envVars:
       - key: DB_HOST
         fromDatabase:
@@ -45,6 +42,10 @@ services:
     rootDir: ./frontend/frontend-react
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
+    routes:
+      - source: /*
+        destination: /index.html
+        type: rewrite
     envVars:
       - key: VITE_API_URL
         fromService:
