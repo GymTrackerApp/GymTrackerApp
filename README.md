@@ -1,6 +1,11 @@
 # GymTrackerApp
 
-> **Master your progress.** A full-stack solution for tracking gym performance, managing workout routines, and visualizing strength progression over time.
+[![Frontend Status](https://img.shields.io/github/deployments/GymTrackerApp/GymTrackerApp/main%20-%20gymtracker-frontend?label=Frontend%20Live&logo=render&style=for-the-badge)](https://gymtracker-frontend-nrkk.onrender.com)
+[![Backend Status](https://img.shields.io/github/deployments/GymTrackerApp/GymTrackerApp/main%20-%20gymtracker-backend?label=Backend%20Live&logo=render&style=for-the-badge)](https://gymtracker-backend-jx3r.onrender.com)
+
+> A full-stack gym progress tracking application built with **Spring Boot 3**, **React (Vite)**, and **PostgreSQL**, fully containerized with **Docker** and orchestrated for cloud deployment on **Render**.
+
+[Live Demo](https://gymtracker-frontend-nrkk.onrender.com)
 
 ### Backend
 [![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
@@ -12,6 +17,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![TanStack Query](https://img.shields.io/badge/TanStack_Query-5.x-FF4154?style=for-the-badge&logo=reactquery)](https://tanstack.com/query/latest)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
 ### Infrastructure & Tools
 [![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
